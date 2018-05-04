@@ -158,6 +158,7 @@ declare namespace Nightmare {
         typeInterval?: number;
         x?: number;
         y?: number;
+        electronPath?: string; // require('./node_modules/electron')
         openDevTools?: {
             /**
              * Opens the devtools with specified dock state, can be right, bottom, undocked, detach.
